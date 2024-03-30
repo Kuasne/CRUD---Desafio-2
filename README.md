@@ -1,3 +1,22 @@
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
+
+<p align="left"> 
+ 💼 Este é um pequeno projeto de CRUD em REACT, ministrado pelo professor Weberson
+    na matéria de Front-end developer, no curso de Engenharia de Software.
+    © 2024
+</p>
+<br>
+<br>
+<br>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 
+<br>
+<br>
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
