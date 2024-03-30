@@ -1,0 +1,120 @@
+/*
+    TAG (button, body, a, p)
+    Classe (.titulo .grupo)
+    Id (#btn-entrar)
+    Sletor (Tujo junto e misturado)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kode+Mono:wght@400..700&family=Permanent+Marker&display=swap');
+@keyframes bounce{
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+body{
+    background-color: rgba(255,0,0,0.5)
+}
+.principal{
+    color: #05C962;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: 0 0 0.2em black;
+    animation: bounce 1s;
+}
+.caixa-login{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #ddd;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.titulo-login {
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.grupo {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+label {
+    font-size: 14px;
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+#btn-entrar {
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#btn-entrar:hover {
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+    animation: bounce 1s;
+}
+
+.esqueci-minha-senha a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#loading{
+    display: none;
+}
+
+footer{
+    width: 100%;
+}
+
+
+#copyright{
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight:  bold;
+    
+}
+#copyright a {
+    font-family: monospace;
+    font-style: italic;
+    
+}
